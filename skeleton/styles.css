@@ -1,0 +1,38 @@
+/* Style the video: 100% width and height to cover the entire window */
+#myVideo {
+ height: 100vh;
+ width: 100vw;
+ object-fit: cover;
+ opacity: 75%;
+ z-index: -2;
+}
+
+.middle-container{
+ display: flex;
+ justify-content: center;
+ flex-direction: column;
+ align-items: center;
+ margin-top: -100%;
+}
+
+.btn-container{
+    z-index: 3;
+}
+
+button{
+    height: 100px;
+    width: 300px;
+    opacity: 100%;
+    z-index: 3;
+    border-radius: 10px;
+    font-size: 50px;
+    background-color:rgba(255, 255, 255, 0.34) ;
+    text-decoration: none;
+    color: rgb(85, 54, 19);
+    border: rgba(0, 0, 0, 0.373) solid;
+
+}
+
+.logo{
+    z-index: 3;
+}
