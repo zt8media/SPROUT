@@ -1,0 +1,102 @@
+[{
+	"name": "Heart Leaf Philodendron",
+	"detail": " This charming plant boasts heart-shaped leaves in a vibrant shade of green, making it the perfect addition to any home or office.",
+	"scientific":"Philodendron cordatum",
+    "price": 22.99,
+	"image": "main-content/plant-names/Heart-Leaf-Philodendron.jpeg",
+    "Product-number":1
+},
+
+{
+	"name": "Black Velvet Alocasia",
+	"detail": "With its luscious, dark, velvety leaves and striking silvery veins, this beauty will leave you breathless.",
+	"scientific":"Alocasia 'Black Velvet",
+    "price": 9.99,
+	"image": "main-content/plant-names/reverse-spider-plant.jpeg",
+    "Product-number":2
+},
+
+{
+	"name": "Red Anthurium",
+	"detail": " With its striking green and white foliage, this spider plant is sure to catch the eye of anyone who enters your home.",
+	"scientific":"Anthurium andraeanum",
+    "price": 34.99,
+	"image": "main-content/plant-names/Black-Velvet-Alocasia .jpeg",
+    "Product-number":3
+},
+
+{
+	"name": "Reverse Spider Plant",
+	"detail": " This charming plant boasts heart-shaped leaves in a vibrant shade of green, making it the perfect addition to any home or office.",
+	"scientific":"Chlorophytum comosum",
+    "price": 19.99,
+	"image": "main-content/plant-names/reverse-spider-plant.jpeg",
+    "Product-number":4
+},
+
+{
+	"name": "Phalaenopsis Mini",
+	"detail": " The delicate allure of the petals, coupled with the striking patterns, transforms your home into a canvas of mystery and charm.",
+	"scientific":"Phalaenopsis amabilis",
+    "price": 29.99,
+	"image": "main-content/plant-names/Phalaenopsis-Mini.jpeg",
+    "Product-number":5
+},
+
+{
+	"name": "Bicolor Dragon Tree",
+	"detail": " This trendy houseplant features long, narrow leaves that are striped with shades of green, pink, and cream, creating a visually stunning display that's sure to impress.",
+	"scientific":"Dracaena marginata 'Bicolor'",
+    "price": 19.99,
+	"image": "main-content/plant-names/Bicolor-dragon-tree.jpeg",
+    "Product-number":6
+},
+{
+	"name": "Green Heart Leaf Hoya",
+	"detail": " The Hoya kerrii, also known as the Sweetheart Plant, becomes not just a botanical beauty but a living testimony to your everlasting love..",
+	"scientific":"Hoya Kerrii",
+    "price": 14.99,
+	"image": "main-content/plant-names/Hoya-Kerrii.jpeg",
+    "Product-number":7
+},
+{
+	"name": "Golden Pothos",
+	"detail": " With its vibrant green leaves, trailing vines, and gorgeous golden variegation, the Pothos is sure to be a conversation starter in any room.",
+	"scientific":"Epipremnum aureum 'Golden",
+    "price": 19.99,
+	"image": "main-content/plant-names/Golden-Pothos.jpeg ",
+    "Product-number":8
+},
+{
+	"name": "Areca Palm",
+	"detail": " This charming plant boasts heart-shaped leaves in a vibrant shade of green, making it the perfect addition to any home or office.",
+	"scientific":"Dypsis lutescens",
+    "price": 19.99,
+	"image": "main-content/plant-names/Areca-palm.jpeg ",
+    "Product-number":9
+},
+{
+	"name": "Bromeliad Antonio Pink",
+	"detail": " With occasional bursts of short-blooming purple flowers, the Bromeliad Antonio Pink showcases nature's artistry at its finest.",
+	"scientific":"Bromeliad Antonio",
+    "price": 39.99,
+	"image": " main-content/plant-names/Bromeliad-Antonio-Pink.jpeg",
+    "Product-number":10
+},
+{
+	"name": "Mini Olive Tree",
+	"detail": " By nurturing this Mini Olive Topiary Lollipop, you're fostering a connection with nature and inviting the positive energy associated with this revered plant into your living space.",
+	"scientific":"Olea europaea",
+    "price": 34.99,
+	"image": " main-content/plant-names/mini-olive-tree.jpeg",
+    "Product-number":11
+},
+{
+	"name": "Bambino Fiddle Leaf Fig",
+	"detail": " This trendy plant whispers tales of the jungle into your space, with its compact size perfect for city dwellers and its lush, vibrant leaves that evoke the enchantment of a tropical getaway.",
+	"scientific":"Ficus lyrata 'Bambino'",
+    "price": 19.99,
+	"image": " main-content/plant-names/Bambino-fiddle-leaf-fig.jpeg",
+    "Product-number":12
+}
+]
