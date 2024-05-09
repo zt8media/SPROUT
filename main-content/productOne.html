@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="product.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Jersey+25&family=Reddit+Sans:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+   
+   
+    <title>Sprout - Products</title>
+</head>
+<body>
+    <div class="container">
+        <header class="navbar">
+            <img src="sprout-logo.svg" alt="Sprout Logo" class="logo">
+            <nav id="navbar-links" class="nav-links">
+                <a href="#">Home</a>
+                <a href="#">Shop</a>
+                <a href="#">Gallery</a>
+                <a href="#">Contact</a>
+            </nav>
+            <div class="menu-icon" onclick="toggleMenu()">&#9776;</div>
+            <div class="cart-icon">
+                <i class="fas fa-shopping-cart"></i>
+                <span id="cart-count">0</span>
+            </div>
+        </header>
+        
+      
+        <main class="content"><h1 class="title-house">House Plants</h1>
+        
+            <div id="products-container">
+                <header>
+                 <h2></h2>
+                   <div class="toggle"></div>
+                 </header>
+                 <div id="products-container">
+                 </div>
+
+
+        </main>
+       
+       
+       
+       
+       
+       
+        <aside class="sidebar">
+            <h3 class="filter">Filter</h3>
+            <h4 class="sort">Sort</h4>
+           
+            <div id="sorting-options">
+                
+                <label>
+                  <input type="checkbox" name="sort" id="sortAsc" value="asc">
+                  Price: Lowest to Highest
+                </label>
+                <label>
+                  <input type="checkbox" name="sort" id="sortDesc" value="desc">
+                  Price: Highest to Lowest
+                </label>
+            </div>
+            <h2 class="categories">Categories</h2>
+            <div class="categories-box">
+
+                <label class="checks">
+                   
+                 <input type="checkbox" name="sort" id="boxes" value="asc">
+                    Orchids
+                  </label>
+                  
+                  <label class="checks">
+                    <input type="checkbox" name="sort" id="boxes" value="asc">
+                     Low Light
+                  </label>
+                  <label class="checks">
+                    <input type="checkbox" name="sort" id="boxes" value="asc">
+                    Medium Light
+                  </label>
+                  <label class="checks">
+                    <input type="checkbox" name="sort" id="boxes" value="asc">
+                    High Light
+                  </label>
+            </div>
+            
+       
+       
+       
+       
+       
+       
+        </aside>
+     
+       
+       
+       
+       
+       
+        <footer class="footer">
+            <img src="sprout-logo.svg" alt="Sprout Footer Logo" class="footer-logo">
+            <div class="footer-links">
+                <a href="#">Home</a>
+                <a href="#">Shop</a>
+                <a href="#">Gallery</a>
+                <a href="#">Contact</a>
+            </div>
+            <div class="social-media">
+                <a href="#"><i class="fa-brands fa-tiktok fa-xl"></i></i></a>
+                <a href="#"><i class="fa-brands fa-tiktok fa-xl"></i></a>
+                <a href="#"><i class="fa-brands fa-tiktok fa-xl"></i></a>
+            </div>
+        </footer>
+    </div>
+    <script src="https://kit.fontawesome.com/0af35531c2.js" crossorigin="anonymous"></script>
+    <script src="product.js"></script>
+</body>
+</html>

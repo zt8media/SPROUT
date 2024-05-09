@@ -27,6 +27,8 @@ margin-bottom: 40%;
 margin-left: -10%;
  /* position: relative; */
 
+
+ 
 }
 .toggle
 {
@@ -38,6 +40,7 @@ margin-left: -10%;
   background-size: 30px;
   background-position: center;
   cursor: pointer;
+ 
 }
 .toggle.active
 {
@@ -46,6 +49,7 @@ margin-left: -10%;
   background-size: 25px;
   background-position: center;
   cursor: pointer;
+  
 }
 .showcase
 {
@@ -198,13 +202,55 @@ margin-left: -10%;
     color: rgb(216, 108, 50);
 }
 
+#product-page{
+  background-color: rgb(255, 250, 250);
+}
 
+#products-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); 
+  grid-gap: 20px;
+  padding: 20px;
 
+}
 
+.product {
+  border: 1px solid rgb(10, 81, 15); 
+  padding: 10px;
 
+  border-radius: 2%;
+  
+ 
+}
 
+.product img {
+  width: 100%; 
+  height: auto;
+  display: block;
+  border: solid 1px rgb(10, 81, 15);
+  border-radius: 2%;
+ 
+}
 
+.title, .description, .price {
+  margin: 10px 0;
+}
 
+.title{
+  color: rgb(10, 81, 15);
+  font-weight:600;
+
+}
+
+.price{
+  color: red;
+}
+
+.science{
+  color: grey;
+  font-size: 10px;
+  font-style: italic;
+}
 
 
 @media (max-width: 991px)
@@ -223,4 +269,37 @@ margin-left: -10%;
     font-size: 2em;
   }
 }
+
+
+.cart-controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.cart-controls button {
+  padding: 3px 9px;
+  margin: 0 5px;
+  background-color: #6d716e;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.cart-controls button:hover {
+  opacity: 0.8;
+}
+
+.cart-controls .quantity {
+  min-width: 20px;
+  text-align: center;
+}
+
+/* h1{
+  font-size: 100px;
+  z-index: 5;
+  margin-top: 100px;
+  padding: 300px;
+} */
 

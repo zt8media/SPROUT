@@ -1,0 +1,213 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: "Reddit Sans", sans-serif;
+}
+
+.container {
+    display: grid;
+    grid-template-areas:
+        "header header header header header"
+        "sidebar content content content content"
+        "footer footer footer footer footer";
+    grid-template-columns: 0.5fr 1fr 1fr 1fr;
+    grid-template-rows: auto 1fr auto;
+    height: 100vh;
+    min-height: 100vh;
+}
+
+/* Sidebar styles */
+.sidebar {
+    grid-area: sidebar;
+    background-color: green;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+
+.filter, .sort, .categories {
+    margin-bottom: 20px;
+}
+
+#sorting-options, .categories-box {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* Content area styles */
+.content {
+    grid-area: content;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 15px;
+    background-color: blue;
+    overflow: auto;
+}
+
+#products-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 20px;
+}
+
+.product {
+    border: 1px solid rgb(10, 81, 15);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+.cart-controls {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    gap:25px;
+}
+
+.cart-controls button {
+    width: 30px;
+    height: 30px;
+    border: none;
+    background-color: #4CAF50; /* Green background */
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+.cart-controls span {
+    width: 30px;
+    text-align: center;
+    font-size: 16px;
+    margin: 0 10px;
+}
+
+
+.cart-icon {
+    color: rgb(27, 26, 26);
+  
+}
+
+#cart-count {
+    margin-left: 5px;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    padding: 0 5px;
+}
+
+.title, .description, .price, .science {
+    margin: 10px 0;
+}
+.product {
+    position: relative;  /* Set the product to a relative position */
+    border: 1px solid rgb(10, 81, 15);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.description-container {
+    display: none;  /* Hide the description container initially */
+    position: absolute;  /* Position it absolutely to float over other content */
+    top: 0;  /* Align it to the top of the product */
+    left: 0;  /* Align it to the left of the product */
+    width: 100%;  /* Same width as the product container */
+    height: 100%;
+    background-color: rgba(255, 249, 249, 0.488);  /* Slightly transparent or solid, as per your design */
+    padding: 25px;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.product:hover .description-container {
+    display: block;  /* Show the description on hover */
+}
+
+.title {
+    color: rgb(10, 81, 15);
+    font-weight: 600;
+}
+
+.title-house{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    font-size:50px
+}
+.price {
+    color: red;
+}
+
+.science {
+    font-size: 12px;
+    font-style: italic;
+}
+
+/* Navbar styles */
+.navbar {
+    grid-area: header;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #a50e94;
+    padding: 0 20px;
+}
+
+.logo {
+    height: 75px;
+}
+
+#navbar-links a, .footer-links a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.menu-icon {
+    display: none; /* Hidden initially, visible in mobile view */
+    font-size: 28px;
+    cursor: pointer;
+    color: black;
+    margin-right: -200px;
+}
+
+/* Footer styles */
+.footer {
+    grid-area: footer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #c8e6c9;
+    padding: 0 20px;
+}
+
+.footer-logo {
+    height: 70px;
+}
+
+.social-media a {
+    margin: 0 10px;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    #navbar-links {
+        display: none;
+    }
+
+    .menu-icon {
+        display: block;
+    }
+
+    .title-house{
+        font-size:28px;
+        padding:5px;
+    }
+}
