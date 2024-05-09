@@ -1,13 +1,13 @@
 "use strict";
 
-// Toggle menu functionality
-const menuToggle = document.querySelector('.toggle');
-const showcase = document.querySelector('.showcase');
+// // Toggle menu functionality
+// const menuToggle = document.querySelector('.toggle');
+// const showcase = document.querySelector('.showcase');
 
-menuToggle.addEventListener('click', () => {
-  menuToggle.classList.toggle('active');
-  showcase.classList.toggle('active');
-});
+// menuToggle.addEventListener('click', () => {
+//   menuToggle.classList.toggle('active');
+//   showcase.classList.toggle('active');
+// });
 
 // Fetch and display products
 const http = new XMLHttpRequest();
@@ -86,3 +86,11 @@ document.querySelectorAll('input[name="sort"]').forEach(input => {
   });
 });
 
+function toggleMenu() {
+  var navLinks = document.getElementById('navbar-links');
+  if (navLinks.style.display === 'block') {
+      navLinks.style.display = 'none';
+  } else {
+      navLinks.style.display = 'block';
+  }
+}
