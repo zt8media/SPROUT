@@ -108,3 +108,19 @@ function toggleMenu() {
         navLinks.style.display = "flex";
     }
 }
+
+
+document.getElementById('contactForm').onsubmit = function(event) {
+    event.preventDefault();
+    var name = document.getElementById('fname').value;
+    var email = document.getElementById('email').value;
+    var message = document.getElementById('message').value;
+    if (name && email && message) {
+        // Here you can handle the form submission, e.g., send it via AJAX or log it.
+        console.log("Name:", name, "Email:", email, "Message:", message);
+        alert("Thank you for your message!");
+    } else {
+        alert("Please fill in all fields.");
+    }
+};
+

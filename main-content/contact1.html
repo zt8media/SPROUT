@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="product.css">
+    <title>Sprout - Contact</title>
+</head>
+<body>
+    <div class="container">
+        <header class="navbar">
+            <img src="sprout-logo.svg" alt="Sprout Logo" class="logo">
+            <nav id="navbar-links" class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="productOne.html">Shop</a>
+                <a href="#">Gallery</a>
+                <a href="contact1.html" class="active">Contact</a>
+            </nav>
+            <div class="menu-icon" onclick="toggleMenu()">&#9776;</div>
+           
+        </header>
+       <div class="form-form"> 
+
+
+        <main class="form-content">
+          
+            <h2>Contact Us</h2>
+            
+            <form class="form" id="contactForm">
+              <label for="fname"></label><br>
+              <input type="text" id="fname" name="fname" placeholder="Name"><br>
+           
+            
+            <div class="form-group">
+                <label for="email"></label><br>
+                <input type="email" id="email" placeholder="Email"name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="message"></label><br>
+                <textarea id="message" name="message" placeholder="Leave us a comment" rows="4" required></textarea>
+            </div>
+            
+            <input type="submit" class="submit-btn"  value="Submit">
+        </form> 
+                  </main>
+                  
+       </div>
+        
+       
+        <footer class="footer">
+            <img src="sprout-logo.svg" alt="Sprout Footer Logo" class="footer-logo">
+            <div class="footer-links">
+                <a href="index.html">Home</a>
+                <a href="productOne.html">Shop</a>
+                <a href="#">Gallery</a>
+                <a href="contact1.html">Contact</a>
+            </div>
+            <div class="social-media">
+                <a href="tiktok.com"><i class="fa-brands fa-tiktok fa-xl" id="footer-icons" style="color: #000000;"></i></a>
+                <a href="instagram.com"><i class="fa-brands fa-instagram fa-xl" id="footer-icons" style="color: #000000;"></i></a>
+                <a href="facebook.com"><i class="fa-brands fa-facebook fa-xl" id="footer-icons" style="color: #000000;"></i></a>
+            </div>
+        </footer>
+    </div>
+    <script src="https://kit.fontawesome.com/0af35531c2.js" crossorigin="anonymous"></script>
+    <script src="product.js"></script>
+</body>
+</html>
+
