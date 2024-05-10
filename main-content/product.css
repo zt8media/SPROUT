@@ -329,7 +329,9 @@ input[type="submit" i] {
 
 
 
-
+.footer-links a:hover{
+color: rgb(149, 231, 149);
+}
 
 /* Responsive Styles for Smaller Screens */
 @media (max-width: 390px) {
