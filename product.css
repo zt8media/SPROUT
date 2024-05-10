@@ -272,7 +272,8 @@ input[type="checkbox"]:checked {
 }
 
 .submit-btn{
-    background-color: rgba(149, 231, 149, 0.091);
+    background-color: rgba(149, 231, 149, 0.433);
+    color:black;
     height: 50px;
     width: 150px;
 }
