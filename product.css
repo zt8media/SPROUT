@@ -16,6 +16,11 @@ body, html {
     min-height: 100vh;
 }
 
+#favicon{
+    height: 100px;
+}
+
+
 /* SIDEBAR STYLE BEGIN */
 .sidebar {
     grid-area: sidebar;
