@@ -8,7 +8,7 @@ function initialize() {
 
 // Fetch and display products
 function fetchProducts() {
-  fetch('/main-content/products.json')
+  fetch('products.json')
     .then(response => {
       if (!response.ok) {
         throw new Error('Network response was not ok');

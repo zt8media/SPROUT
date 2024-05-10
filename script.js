@@ -11,7 +11,7 @@
 
 // Fetch and display products
 const http = new XMLHttpRequest();
-http.open('GET', '/main-content/products.json', true);
+http.open('GET', 'products.json', true);
 http.send();
 
 http.onload = function() {
