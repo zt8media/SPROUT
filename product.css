@@ -272,7 +272,7 @@ input[type="checkbox"]:checked {
 }
 
 .submit-btn{
-    background-color: transparent;
+    background-color: rgba(149, 231, 149, 0.091);
     height: 50px;
     width: 150px;
 }
@@ -326,6 +326,16 @@ input[type="submit" i] {
     margin: 10px;
 }
 
+.social-media {
+    display: flex; /* Ensures icons are laid out horizontally */
+    justify-content: center; /* Centers icons horizontally */
+    align-items: center; /* Centers icons vertically */
+}
+
+.social-media a {
+    margin: 0 10px; /* Provides spacing between icons */
+}
+
 
 
 
@@ -363,6 +373,11 @@ color: rgb(149, 231, 149);
         display: block; /* Shows the menu icon on smaller screens */
         margin-left: 55%;  }
        
+       
+       
+        .social-media {
+            justify-content: space-around; /* Adjusts spacing to fit smaller screens */
+        }     
 }
 
 
