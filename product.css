@@ -379,6 +379,26 @@ color: rgb(149, 231, 149);
         .social-media {
             justify-content: space-around; /* Adjusts spacing to fit smaller screens */
         }     
-}
+
+
+        .about-us h1{
+            font-size: 3rem;
+    
+            }
+
+
+            .photo-slider-home h1{
+
+            text-align: center;
+            }
+
+
+
+
+    }
+
+
+
+
 
 
